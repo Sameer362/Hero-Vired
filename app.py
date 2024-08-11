@@ -4,5 +4,9 @@ app=Flask(__name__)
 def home():
     return "hello Sameer"
 
+@app.route('/greet/<name>')
+
+# hii sameer 
+
 if __name__=='__main__':
     app.run(debug=True)
